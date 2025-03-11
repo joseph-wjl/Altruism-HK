@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -11,15 +11,14 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
+/*  */
 
 body {
   margin: 0;
+  font-family: "inter", sans-serif;
+  font-weight: lighter;
+  box-sizing: border-box;
 }
 
 .hero {
@@ -41,34 +40,36 @@ body {
 .card-section {
   background-color: white;
   width: 100vw;
+  min-width: 30rem;
   height: 100rem;
   color: black;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: left;
   padding: 2rem;
 }
 
 .card-section>h3 {
-  font-size: 0.5rem;
+  font-size: 5em;
 }
 
 .brief-card {
   display: flex;
+  flex-direction: column;
 }
 
-#acupuncture-img {
-  width: 15rem;
-  height: 20rem;
-  border-radius: 20%;
+.brief-card>img {
+  width: 25rem;
+  height: 40rem;
+  border-radius: 50% / 30%;
   margin-top: 5rem;
 }
 
-#massage-img {
-  width: 15rem;
-  height: 20rem;
-  border-radius: 20%;
-  margin-top: 5rem;
+@media(min-width: 500px) {
+  .brief-card {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @keyframes logo-spin {
