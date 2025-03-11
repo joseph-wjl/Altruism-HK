@@ -18,6 +18,59 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+body {
+  margin: 0;
+}
+
+.hero {
+  background-image: url("images/plant.jpg");
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  height: 30rem;
+}
+
+.hero>h1 {
+  color: black;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 2rem;
+}
+
+.card-section {
+  background-color: white;
+  width: 100vw;
+  height: 100rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+}
+
+.card-section>h3 {
+  font-size: 0.5rem;
+}
+
+.brief-card {
+  display: flex;
+}
+
+#acupuncture-img {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 20%;
+  margin-top: 5rem;
+}
+
+#massage-img {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 20%;
+  margin-top: 5rem;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
