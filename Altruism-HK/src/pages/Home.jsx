@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
         <>
+        <Link to=''>About</Link>
         <div className="hero">
             <h1>"From the heart" makes you healthy, comfortable,
             The truth of flying freely!</h1>
