@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Nav from '../components/Nav'
 
 export default function Home() {
     return (
         <>
-        <Link to=''>About</Link>
+        <Nav />
+        <Link to='pages/About'>About</Link>
         <div className="hero">
             <h1>"From the heart" makes you healthy, comfortable,
             The truth of flying freely!</h1>

@@ -10,11 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route>
-          <div>
-            <Home />
-          </div>
-        </Route>
+        <Route path="/" element={<Home />} /> {/* Correctly define the route */}
       </Routes>
     </BrowserRouter>
   )
