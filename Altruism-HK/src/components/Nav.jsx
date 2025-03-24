@@ -5,7 +5,9 @@ export default function Nav() {
     return (
         <nav className="navbar navbar-light bg-light navbar-expand-lg" >
             <a href="#" className="navbar-brand">Altruism</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">Open</button>
+            <button className="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarCollapse">
+                <span className="navbar-toggler-icon"></span>
+            </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
