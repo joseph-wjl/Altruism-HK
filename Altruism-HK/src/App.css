@@ -12,12 +12,6 @@ html, body {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 /* Hero section */
 
 .hero {
@@ -27,14 +21,25 @@ img {
   padding: 0;
   background-size: cover;
   height: 30rem;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .hero>h1 {
   color: black;
-  font-size: 1.5em;
-  text-align: left;
-  padding: 2rem;
+  font-size: 2em;
+  padding-left: 2rem;
+  width: 20rem;
+}
+
+.hero>h3 {
+  color: black;
+  font-size: 1em;
+  font-weight: 300;
+  padding-left: 2rem;
+  width: 20rem;
 }
 
 #learnmore-btn {
@@ -43,6 +48,8 @@ img {
   border: 1px solid black;
   border-radius: 30px;
   padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+  width: 15rem;
+  margin-left: 2rem;
 }
 
 #learnmore-btn:hover {
@@ -66,27 +73,38 @@ img {
   box-sizing: border-box;
 }
 
-.card-section>h3 {
-  font-size: 5em;
+.brief-card>div>h2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: -0.5rem;
+}
+
+.brief-card>div>h3 {
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .brief-card {
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  max-width: 25rem;
 }
 
 .brief-card>img {
-  width: 25rem;
+  border-radius: 50% / 35%;
   height: 40rem;
-  border-radius: 50% / 30%;
-  margin-top: 5rem;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  margin-top: 1rem;
 }
 
 /* Desktop */
 
-@media(min-width: 500px) {
+@media(min-width: 900px) {
   .brief-card {
     display: flex;
     flex-direction: row;

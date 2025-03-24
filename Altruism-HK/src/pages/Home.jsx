@@ -10,6 +10,7 @@ export default function Home() {
         <div className="hero">
             <h1>"From the heart" makes you healthy, comfortable,
             The truth of flying freely!</h1>
+            <h3>Get personalized support and guidance, ensuring that you have everything you need to nourish your body and transform your life.</h3>
             <button id="learnmore-btn">Learn more</button>
         </div>
         <div className="card-section">
