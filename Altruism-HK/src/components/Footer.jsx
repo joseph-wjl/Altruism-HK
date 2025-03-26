@@ -11,13 +11,17 @@ export default function Footer() {
                 <button>Subscribe</button>
             </div>
             <div className="social-section">
-                <p>Social</p>
-                <p>Instagram</p>
-                <p>Facebook</p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div className="footer-nav-section">
+                <p>About</p>
+                <p>Our Team</p>
+                <p>Our Equipment</p>
+                <p>Contact Us</p>
             </div>
             <div className="copyright-section">
-                <p>©2022 Altruism Healthcare Limited</p>
-                <p>All Rights Reserved</p>
+                <p>Copyright ©2025 Altruism Healthcare Limited. All rights reserved.</p>
             </div>
         </footer>
     )
