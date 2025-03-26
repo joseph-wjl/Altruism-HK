@@ -1,23 +1,29 @@
 /* Email section */
 
-#email-section {
+.email-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 1px red solid;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.email-section>h4 {
+    margin-bottom: 1rem;
+    font-size: 2em;
 }
 
 #email-input {
-    border: #1d1d1d 2px solid;
+    border: #2c2c2c 2px solid;
     border-radius: 30px;
     background-color: transparent;
     color: black;
     padding: 0.3rem 1.5rem 0.5rem 1rem;
     width: 17rem;
+    margin-bottom: 0.3rem;
 }
 
 button {
-    border: #1d1d1d 2px solid;
+    border: #2c2c2c 2px solid;
     border-radius: 30px;
     background-color: transparent;
     color: black;
@@ -29,8 +35,21 @@ button {
 button:hover {
     background-color: #1d1d1d;
     color: white;
-    border: #1d1d1d 2px solid;
+    border: #2c2c2c 2px solid;
     transition: 0.5s;
 }
 
 /* Social section */
+
+.social-section {
+    margin-bottom: 3rem;
+    color: #2c2c2c;
+    font-weight: 300;
+}
+
+/* Copyright section */
+
+.copyright-section>p {
+    margin-top: -1rem;
+    font-size: 0.8em;
+}

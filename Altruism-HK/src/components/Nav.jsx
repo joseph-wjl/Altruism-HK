@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Nav.css'
 
 export default function Nav() {
     return (
-        <nav className="navbar navbar-light bg-light navbar-expand-lg" >
+        <nav className="navbar navbar-light navbar-expand-lg" >
             <a href="#" className="navbar-brand">Altruism</a>
             <button className="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
