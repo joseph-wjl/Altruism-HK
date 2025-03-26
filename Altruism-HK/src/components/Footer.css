@@ -1,10 +1,19 @@
+/* Email section */
+
+#email-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px red solid;
+}
+
 #email-input {
     border: #1d1d1d 2px solid;
     border-radius: 30px;
     background-color: transparent;
     color: black;
     padding: 0.3rem 1.5rem 0.5rem 1rem;
-
+    width: 17rem;
 }
 
 button {
@@ -12,6 +21,9 @@ button {
     border-radius: 30px;
     background-color: transparent;
     color: black;
+    padding: 0.3rem 1.5rem 0.5rem 1.5rem;
+    width: 10rem;
+    transition: background-color 0.5s, color 0.5s, border 0.5s; 
 }
 
 button:hover {
@@ -20,3 +32,5 @@ button:hover {
     border: #1d1d1d 2px solid;
     transition: 0.5s;
 }
+
+/* Social section */
