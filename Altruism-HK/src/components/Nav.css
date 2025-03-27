@@ -6,5 +6,24 @@
     width: 100%;
     z-index: 1000;
     background-color: white;
-    box-shadow: 0 2px 5px #0000001a; 
+    box-shadow: 0 2px 5px #0000001a;
 }
+
+.navbar-brand {
+    margin-left: 1.5rem;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler:hover {
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    margin-left: 6rem;
+}
+
