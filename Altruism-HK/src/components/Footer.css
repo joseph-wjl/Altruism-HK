@@ -50,13 +50,14 @@ button:hover {
     gap: 2rem;
 }
 
-.social-section>i {
+.social-section>a {
     font-size: 2em;
+    color: #2c2c2c;
     transition: color 0.5s;
 }
 
-.social-section>i:hover {
-    color: #5c0808;
+.social-section>a:hover {
+    color: #450707;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -74,7 +75,7 @@ button:hover {
 }
 
 .footer-nav-section>p:hover {
-    color: #5c0808;
+    color: #450707;
     cursor: pointer;
 }
 

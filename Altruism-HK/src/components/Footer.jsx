@@ -11,8 +11,13 @@ export default function Footer() {
                 <button>Subscribe</button>
             </div>
             <div className="social-section">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+                <a href="https://www.instagram.com/altruism.hk/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                    
+                <a href="https://www.facebook.com/altruism.hk/?locale=zh_HK" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
             </div>
             <div className="footer-nav-section">
                 <p>About</p>
