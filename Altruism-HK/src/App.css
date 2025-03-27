@@ -29,26 +29,26 @@ html, body {
 }
 
 .hero>h1 {
-  color: black;
+  color: white;
   font-size: 2em;
   padding-left: 2rem;
   width: 30rem;
 }
 
 .hero>h3 {
-  color: black;
+  color: white;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 2rem;
-  width: 20rem;
+  width: 27rem;
 }
 
 #learnmore-btn {
-  color: black;
+  color: white;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1.5px solid white;
   border-radius: 30px;
-  padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+  padding: 0.3rem 3.5rem 0.3rem 3.5rem;
   width: 15rem;
   margin-left: 2rem;
   transition: 0.5s;
