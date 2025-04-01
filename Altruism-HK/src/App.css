@@ -16,10 +16,12 @@ html, body {
 
 .hero {
   background-image: url("images/plant.jpg");
+  background-size: 150%; 
+  background-position: center;
+  height: 40rem;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-size: cover;
   height: 30rem;
   display: flex;
   flex-direction: column;
