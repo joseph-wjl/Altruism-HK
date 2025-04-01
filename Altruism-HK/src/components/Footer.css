@@ -68,15 +68,11 @@ button:hover {
     font-weight: 500;
     color: #2c2c2c;
     margin-bottom: 2rem;
-}
-
-.footer-nav-section>p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     
-}
-
-.footer-nav-section>p:hover {
-    color: #450707;
-    cursor: pointer;
 }
 
 /* Copyright section */

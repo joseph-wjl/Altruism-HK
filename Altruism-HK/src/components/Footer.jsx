@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer() {
@@ -20,10 +21,10 @@ export default function Footer() {
                 </a>
             </div>
             <div className="footer-nav-section">
-                <p>About</p>
-                <p>Our Team</p>
-                <p>Our Equipment</p>
-                <p>Contact Us</p>
+                <Link to='pages/About' className='navbar-link'>About</Link>
+                <Link to='pages/Team' className='navbar-link'>Our Team</Link>
+                <Link to='pages/Equipment' className='navbar-link'>Our Equipment</Link>
+                <Link to='pages/Contact' className='navbar-link'>Contact Us</Link>
             </div>
             <div className="copyright-section">
                 <p>Copyright ©2025 Altruism Healthcare Limited. All rights reserved.</p>

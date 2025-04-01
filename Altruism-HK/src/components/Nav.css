@@ -38,5 +38,6 @@
 }
 
 .navbar-link:hover{
-    
+    text-decoration: underline;
+    transition: 1s;
 }
