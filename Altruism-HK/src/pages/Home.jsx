@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 export default function Home() {
     return (
         <>
-        <Nav />
+        {/* <Nav /> */}
         <div className="hero">
             <h1>"From the heart" makes you healthy, comfortable,
             The truth of flying freely!</h1>
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             
         </div>  
-        <Footer />
+        {/* <Footer /> */}
         </>
     )
 }

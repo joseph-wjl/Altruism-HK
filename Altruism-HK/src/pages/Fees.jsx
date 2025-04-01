@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Team(){
+export default function Fees(){
     return (
-        <h1>Team page</h1>
+        <h1>Fees page</h1>
     )
 }
