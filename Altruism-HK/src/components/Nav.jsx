@@ -47,7 +47,7 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="menuItems">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='pages/Home' className='navbar-link'>Home</Link>
+                            <Link to='/' className='navbar-link'>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='pages/About' className='navbar-link'>About</Link>
