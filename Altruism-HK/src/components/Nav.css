@@ -9,6 +9,12 @@
     box-shadow: 0 2px 5px #0000001a;
 }
 
+.navbar-white {
+    background-color: white; 
+    transition: background-color 0.3s ease-in-out; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
 .navbar-brand {
     margin-left: 1.5rem;
     font-weight: 300;
@@ -22,13 +28,15 @@
 .navbar-toggler {
     background-color: transparent;
     color: white;
-    
+    border: none;
 }
 .navbar-toggler:focus {
     box-shadow: none;
+    border: none;
 }
 .navbar-toggler:hover {
     background-color: transparent;
+    border: none;
 }
 
 .navbar-toggler-icon {
@@ -56,8 +64,3 @@
     transition: 1s;
 }
 
-.navbar-white {
-    background-color: white; 
-    transition: background-color 0.3s ease-in-out; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-}
