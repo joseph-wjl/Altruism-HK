@@ -47,25 +47,25 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="menuItems">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='/' className='navbar-link'>Home</Link>
+                            <Link to='/' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/About' className='navbar-link'>About</Link>
+                            <Link to='pages/About' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Team' className='navbar-link'>Team</Link>
+                            <Link to='pages/Team' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Team</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Services' className='navbar-link'>Services</Link>
+                            <Link to='pages/Services' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Fees' className='navbar-link'>Fees</Link>
+                            <Link to='pages/Fees' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Fees</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Equipment' className='navbar-link'>Equipment</Link>
+                            <Link to='pages/Equipment' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Equipment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Contact' className='navbar-link'>Contact</Link>
+                            <Link to='pages/Contact' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Contact</Link>
                             {/* <a href="#" className="nav-link">Contact</a> */}
                         </li>
                     </ul>
@@ -81,16 +81,16 @@ export default function Nav() {
         //     <div className="collapse navbar-collapse" id="navbarCollapse">
         //         <ul className="navbar-nav">
         //             <li className="nav-item">
-        //                 <Link to='pages/Home' className='navbar-link'>Home</Link>
+        //                 <Link to='pages/Home' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Home</Link>
         //             </li>
         //             <li className="nav-item">
-        //                 <Link to='pages/Team' className='navbar-link'>Team</Link>
+        //                 <Link to='pages/Team' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Team</Link>
         //             </li>
         //                 <li className="nav-item">
-        //             <Link to='pages/Contact' className='navbar-link'>Contact</Link>
+        //             <Link to='pages/Contact' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Contact</Link>
         //             </li>
         //             <li className="nav-item">
-        //                 <Link to='pages/About' className='navbar-link'>About</Link>
+        //                 <Link to='pages/About' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>About</Link>
         //             </li>
         //         </ul>
         //     </div>
