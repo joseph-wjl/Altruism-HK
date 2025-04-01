@@ -6,12 +6,13 @@
     width: 100%;
     z-index: 1000;
     background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
     box-shadow: 0 2px 5px #0000001a;
 }
 
 .navbar-white {
     background-color: white; 
-    transition: background-color border-bottom 0.3s ease-in-out; 
+    transition: background-color 0.3s ease-in-out; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     border-bottom: 1px solid black;
 }
