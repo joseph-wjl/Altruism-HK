@@ -1,19 +1,37 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
 
 export default function Nav() {
     
     const [isNavOpen, setIsNavOpen] = React.useState(false);
+    const [isScrolled, setIsScrolled] = React.useState(false);
 
     function toggleNav() {
         setIsNavOpen(!isNavOpen)
     }
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsScrolled(true); 
+            } else {
+                setIsScrolled(false); 
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    
     return (
         <div className="container bg-light" >
-            <nav className={`navbar navbar-light navbar-expand-lg ${isNavOpen? 'navbar-white' : ''}`}>
-                <a href="#" className={`navbar-brand ${isNavOpen? 'navbar-brand-black' : ''}`}>Altruism</a>
+            <nav className={`navbar navbar-light navbar-expand-lg ${isNavOpen || isScrolled? 'navbar-white' : ''}`}>
+                <a href="#" className={`navbar-brand ${isNavOpen || isScrolled? 'navbar-brand-black' : ''}`}>Altruism</a>
                 <button
                     className="navbar-toggler"
                     type="button"
