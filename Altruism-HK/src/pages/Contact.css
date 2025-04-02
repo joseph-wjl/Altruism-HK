@@ -16,5 +16,14 @@
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 600;   
+}
+
+.contact-details-containers {
+    margin-top: 2rem;
+}
+
+p {
+    margin: 0.5rem 0;
+    line-height: 1.2;
 }

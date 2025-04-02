@@ -8,7 +8,6 @@ export default function Footer() {
             <div className="layout-container-desktop">
             <div className="email-section">
                 <h4>Join Altruism</h4>
-                {/* <label for="email-input" >Email address</label> */}
                 <input type="email" placeholder="Enter your email address" id="email-input"></input>
                 <button>Subscribe</button>
             </div>
