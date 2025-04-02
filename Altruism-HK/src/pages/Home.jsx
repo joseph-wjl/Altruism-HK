@@ -8,8 +8,7 @@ export default function Home() {
         <>
         {/* <Nav /> */}
         <div className="hero">
-            <h1>"From the heart" makes you healthy, comfortable,
-            The truth of flying freely!</h1>
+            <h1>Discover the ways to unlock good health so you can be carefree and fly free.</h1>
             <h3>Get personalized support and guidance, ensuring that you have everything you need to nourish your body and transform your life.</h3>
             <button id="learnmore-btn">Learn more</button>
         </div>
