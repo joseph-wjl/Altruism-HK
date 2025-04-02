@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
                 <img src="images/acupuncture.jpg" className="brief-card-img"></img>
             </div>
-            <div className="brief-card">
+            <div className="brief-card reverse-card">
                 <div className="brief-card-text">
                     <h2>Mindset matters, more than you think.</h2>
                     <h3>Understanding the importance of mental health is key. That's why we start with a full evaluation to make sure we're touching on important factors in your relationship with food and wellness.</h3>

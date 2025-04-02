@@ -85,13 +85,13 @@
     .navbar-nav {
         background-color: transparent;
     }
-    .navbar-link{
-        color: white;
+    .navbar .navbar-link {
+        color: #ffffff;
         font-size: 0.7em;
+        font-weight: 400;
     }
-    .navbar-link:hover{
-        color: #c6c6c6;
-
+    .navbar .navbar-link:hover {
+        color: #dbdbdb;
     }
     .navbar-link-black {
         font-size: 0.7em;

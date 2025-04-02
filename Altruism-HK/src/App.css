@@ -129,14 +129,20 @@ html, body {
   }
   .brief-card {
     align-items: center;
-  
+    gap: 5rem;
+    
   }
   .brief-card-text {
     width: 50%;
-    padding-left: 5rem;
+    margin-left: 5rem;
   }
-  .brief-card-img {
-    width: 10rem;
-    padding-right: 5rem;
+  .brief-card .brief-card-img {
+    width: 35rem;
+    height: 50rem;
+    margin-right: 5rem;
   }
+  .reverse-card {
+    flex-direction: row-reverse; 
+    padding: 0 5rem 0 5rem;
+}
 }

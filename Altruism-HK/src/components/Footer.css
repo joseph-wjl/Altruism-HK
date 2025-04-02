@@ -57,7 +57,7 @@ button:hover {
 }
 
 .social-section>a:hover {
-    color: #450707;
+    color: #606060;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -83,4 +83,34 @@ button:hover {
     margin-bottom: 0.3rem;
     font-size: 0.8em;
     font-weight: 300;
+}
+
+@media(min-width: 900px) {
+    footer {
+        background-color: #f0f0f0;
+    }
+    .navbar-link {
+        color: black;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .navbar-link:hover {
+        color: #515151;
+        transition: 0.3s;
+    }
+    .layout-container-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 3rem 3rem 3rem;
+    }
+    .email-section {
+        border: 1px solid red;
+        text-align: left;
+    }
+    .links-container-desktop {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: row;
+    }
 }
