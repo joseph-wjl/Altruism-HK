@@ -93,4 +93,11 @@
         color: #c6c6c6;
 
     }
+    .navbar-link-black {
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+    .hero {
+        background-size: 100%;
+    }
 }
