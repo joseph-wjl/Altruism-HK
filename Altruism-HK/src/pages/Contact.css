@@ -3,6 +3,56 @@
     margin-bottom: 5rem;
 }
 
+h1 {
+    font-size: 2em;
+    padding: 1rem;
+}
+
+.map {
+    padding: 2rem;
+}
+
+input, textarea {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.3rem;
+}
+
+textarea {
+    width: 20rem;
+    height: 10rem;
+}
+
+.contact-form>label {
+    font-weight: 300;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 8rem;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.contact-form-container {
+    padding-bottom: 3rem;
+}
+
 .contact-img {
     border-radius: 3%;
     width: 90%

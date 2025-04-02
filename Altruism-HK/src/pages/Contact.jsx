@@ -6,20 +6,30 @@ export default function Contact(){
     return (
         <>
             <div className="contact-container">
+                <div className="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.824208761748!2d114.15264137480318!3d22.28464794346354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401c83fd3f82f%3A0x1154cb27546752f3!2sAltruism%20Healthcare!5e0!3m2!1sen!2shk!4v1743612410192!5m2!1sen!2shk" 
+                        width="400" 
+                        height="300" 
+                        style={{ border: 0 }} 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
                 <div className="contact-form-container">
                     <h1>Contact us</h1>
                     <p></p>
                     <form className="contact-form">
                         <label for="name">First name</label>
-                        <input type="text" name="First name" placeholder="First name" required></input>
+                            <input type="text" name="First name" placeholder="First name" required></input>
                         <label for="name">Last name</label>
-                        <input type="text" name="Last name" placeholder="Last name" required></input>
+                            <input type="text" name="Last name" placeholder="Last name" required></input>
                         <label for="email">Email</label>
-                        <input type="email" name="Email" placeholder="Email" required></input>
+                            <input type="email" name="Email" placeholder="Email" required></input>
                         <label for="phone">Phone</label>
-                        <input type="text" name="Phone" placeholder="Phone" required></input>
+                            <input type="text" name="Phone" placeholder="Phone" required></input>
                         <label for="message">Message</label>
-                        <textarea name="Message" placeholder="Leave a message" required></textarea>
+                            <textarea name="Message" placeholder="Leave a message" required></textarea>
                         <submit type="submit" value="Submit" className="submit-btn">Submit</submit>
                     </form>
                 </div>
