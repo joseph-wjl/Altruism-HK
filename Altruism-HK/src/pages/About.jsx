@@ -31,6 +31,25 @@ export default function About(){
                 </div>
                 
                 <img src="/images/seagull.avif" className="about-img"></img>
+                <div className="about-text-container">
+                    <p>
+                        In Chinese, the word "Pride" has the meaning of being high and mighty, and is used to describe 
+                    birds that look down on everything from high in the sky and soar freely in the sky.
+                    </p>
+                    <p>
+                        Seagulls can demonstrate the concept of freedom from the 
+                    heart, representing the message of health and freedom. 
+                    The traditional wisdom of Chinese medicine yearns for 
+                    nature, the balance of yin and yang, and the peace of all things.
+                    </p>
+                    <p>Seagull represents the <strong>"Sky"</strong>.</p>
+                    <p>Chinese herbs represent the <strong>"Earth"</strong>.</p>
+                    <p>Physicians represent the <strong>"people"</strong>.</p>
+                    <p>
+                        All things in the world enjoy life under the health-preserving concept 
+                    of "follow your heart and be at ease".
+                    </p>
+                </div>
             </div>
             
         </>
