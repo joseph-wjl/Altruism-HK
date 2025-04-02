@@ -47,6 +47,12 @@ label {
     background-color: black;
     color: white;
     margin-top: 1rem;
+    transition: background-color 0.5s, color 0.5s, border 0.5s; 
+}
+.submit-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 .contact-form-container {
