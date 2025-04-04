@@ -27,6 +27,10 @@ export default function Nav() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    function closeNav() {
+        setIsNavOpen(false);
+    }
     
     return (
         <div className="container bg-light" >
@@ -47,25 +51,25 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="menuItems">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='/' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Home</Link>
+                            <Link to='/' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/About' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>About</Link>
+                            <Link to='pages/About' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Team' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Team</Link>
+                            <Link to='pages/Team' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Team</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Services' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Services</Link>
+                            <Link to='pages/Services' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Fees' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Fees</Link>
+                            <Link to='pages/Fees' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Fees</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Equipment' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Equipment</Link>
+                            <Link to='pages/Equipment' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Equipment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='pages/Contact' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`}>Contact</Link>
+                            <Link to='pages/Contact' className={`${isScrolled? 'navbar-link-black' : 'navbar-link'}`} onClick={closeNav}>Contact</Link>
                             {/* <a href="#" className="nav-link">Contact</a> */}
                         </li>
                     </ul>

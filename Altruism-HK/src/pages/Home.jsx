@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Home.css'
 // import Nav from '../components/Nav'
 // import Footer from '../components/Footer'
 
@@ -27,6 +28,9 @@ export default function Home() {
                 </div>
                 <img src="images/massage.jpg" className="brief-card-img"></img>
             </div>
+        <div className="wellness-section">
+            <h2>Experience a new level of wellness — with Altruism.</h2>
+        </div>
             
         </div>  
         {/* <Footer /> */}
