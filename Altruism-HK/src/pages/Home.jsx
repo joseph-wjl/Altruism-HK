@@ -7,7 +7,6 @@ import './Home.css'
 export default function Home() {
     return (
         <>
-        {/* <Nav /> */}
         <div className="hero">
             <h1>Discover the ways to unlock good health so you can be carefree and fly free.</h1>
             <h3>Get personalized support and guidance, ensuring that you have everything you need to nourish your body and transform your life.</h3>
@@ -28,12 +27,10 @@ export default function Home() {
                 </div>
                 <img src="images/massage.jpg" className="brief-card-img"></img>
             </div>
+        </div>
         <div className="wellness-section">
             <h2>Experience a new level of wellness — with Altruism.</h2>
         </div>
-            
-        </div>  
-        {/* <Footer /> */}
         </>
     )
 }

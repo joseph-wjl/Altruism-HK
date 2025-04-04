@@ -94,20 +94,25 @@
   /* Wellness section */
 
   .wellness-section {
-    border: 1px solid red;
     background-image: url("/images/wellness.jpg");
     background-size: 120%;
     background-repeat: no-repeat;
-    background-position-y: 120%;
+    background-position-y: 100%;
     width: 100%;
-    height: 25rem;
+    height: 35rem;
     margin: 0;
     padding: 0;
-  }
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  } 
 
-  .wellness-section h2 {
+    .wellness-section h2 {
     color: white;
     text-align: center;
+    width: 95%;
+    font-size: 2.4em;
+    font-weight: 400;
   }
   
   /* Desktop */
