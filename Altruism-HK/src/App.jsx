@@ -9,10 +9,12 @@ import Fees from './pages/Fees'
 import Equipment from './pages/Equipment'
 import Contact from './pages/Contact'
 import Layout from './components/Layout'
+import ScrollToTop from './components/ScrollToTop'
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
@@ -27,5 +29,3 @@ function App() {
     </BrowserRouter>
   )
 }
-
-export default App
