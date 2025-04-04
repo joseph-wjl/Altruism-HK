@@ -49,6 +49,7 @@ export default function About(){
                         All things in the world enjoy life under the health-preserving concept 
                     of "follow your heart and be at ease".
                     </p>
+                    <img src="/images/herbs.jpg" className="about-img"></img>
                 </div>
             </div>
             

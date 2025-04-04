@@ -31,7 +31,7 @@ export default function Nav() {
     return (
         <div className="container bg-light" >
             <nav className={`navbar navbar-light navbar-expand-lg ${isNavOpen || isScrolled? 'navbar-white' : ''}`}>
-                <a href="#" className={`navbar-brand ${isNavOpen || isScrolled? 'navbar-brand-black' : ''}`}>Altruism</a>
+                <a href="#" className={`navbar-brand ${isNavOpen || isScrolled? 'navbar-brand-black' : 'navbar-brand-white'}`}>Altruism</a>
                 <button
                     className="navbar-toggler"
                     type="button"
