@@ -57,7 +57,7 @@ export default function Team(){
                 <div className="team-members">
                     <div id="therapist-wun-img"></div>
                     {/* <img src="/images/therapist-wun.avif"></img> */}
-                    <h2>Comprehensive Therapist - Wun Yuk Ying</h2>
+                    <h2>Comprehensive Therapist - Macy Wun</h2>
                         <p>• Diploma in Massage Therapy from Hong Kong Baptist University</p>
                         <p>• National vocational examination health massage instructor qualification</p>
                         <p>• Clinical Certificate of Orthopedics, Buddhist Huaxia College of Traditional Chinese Medicine</p>
