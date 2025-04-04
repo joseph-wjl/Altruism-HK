@@ -37,12 +37,12 @@ export default function Nav() {
             <nav className={`navbar navbar-light navbar-expand-lg ${isNavOpen || isScrolled? 'navbar-white' : ''}`}>
                 <a href="#" className={`navbar-brand ${isNavOpen || isScrolled? 'navbar-brand-black' : 'navbar-brand-white'}`}>Altruism</a>
                 <button
-                    className="navbar-toggler"
+                    className={`navbar-toggler ${isScrolled || isNavOpen ? 'navbar-toggler-black' : ''}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#menuItems"
                     aria-controls="menuItems"
-                    aria-expanded="false"
+                    aria-expanded={isNavOpen}
                     aria-label="Toggle Navigation"
                     onClick={toggleNav}
                 >

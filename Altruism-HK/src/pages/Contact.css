@@ -1,6 +1,9 @@
 .contact-container {
     margin-top: 5rem;
     margin-bottom: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px red solid;
 }
 
 h1 {
