@@ -1,0 +1,99 @@
+.team-container {
+    margin-top: 5rem;
+}
+
+.team-members {
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+.team-container h2 {
+    margin: 2rem;
+}
+
+.team-container p {
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.3;
+}
+
+/* Avatars */
+
+#dr-huang-img {
+    background-image: url(/images/dr-huang.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 25%;
+    background-position-x: 100%;
+    background-size: 90%;
+    margin: auto; 
+}
+
+#dr-lai-img {
+    background-image: url(/images/dr-lai.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 25%;
+    background-position-x: 100%;
+    background-size: 90%;
+    margin: auto; 
+}
+
+#dr-huang2-img {
+    background-image: url(/images/dr-huang2.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 25%;
+    background-position-x: 70%;
+    background-size: 90%;
+    margin: auto; 
+}
+
+#dr-cheung-img {
+    background-image: url(/images/dr-cheung.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 15%;
+    background-position-x: 60%;
+    background-size: 100%;
+    margin: auto; 
+}
+
+#dr-lui-img {
+    background-image: url(/images/dr-lui.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 15%;
+    background-position-x: 50%;
+    background-size: 100%;
+    margin: auto; 
+}
+
+#therapist-wun-img {
+    background-image: url(/images/therapist-wun.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 60%;
+    background-position-x: 70%;
+    background-size: 90%;
+    margin: auto; 
+}
+
+#therapist-ng-img {
+    background-image: url(/images/therapist-ng.avif);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-position-y: 25%;
+    background-position-x: 70%;
+    background-size: 100%;
+    margin: auto; 
+}
