@@ -1,16 +1,35 @@
 .about-container.navbar {
     color: black;
-    background-color: black;
+    background-color: transparent;
 }
 
 .about-container {
-    margin-top: 5rem;
     margin-bottom: 3rem;
 }
 
+.about-hero {
+    background-image: url("/images/wellness.jpg");
+    background-size: 150%; 
+    background-position: center;
+    height: 35rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-hero h1 {
+    color: white;
+    font-size: 2.7em;
+    font-weight: 400;
+    text-align: center;
+  }
+
 #altruism {
-    font-weight: 700;
-    text-decoration: underline;
+    font-weight: 500;
+    background-color: black;
 }
 
 .about-text-container {
@@ -28,7 +47,5 @@
 }
 
 .about-img {
-    width: 90%;
-    border-radius: 10px;
-    margin: 1rem;
+    width: 100vw;
 }

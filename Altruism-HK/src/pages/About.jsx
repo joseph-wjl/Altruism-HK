@@ -6,7 +6,9 @@ export default function About(){
     return (
         <>
             <div className="about-container">
-                <h2>Treating with <span id="altruism">Altruism</span> is our philosophy.</h2>
+                <div className="about-hero">
+                    <h1>Treating with <span id="altruism">Altruism</span> is our philosophy.</h1>
+                </div>
                 <div className="about-text-container">
                     <p>
                         Seagulls are free and at ease; they follow their hearts and 
@@ -29,7 +31,6 @@ export default function About(){
                     seagulls, pursuing an ideal life of freedom!
                     </p>
                 </div>
-                
                 <img src="/images/seagull.avif" className="about-img"></img>
                 <div className="about-text-container">
                     <p>
@@ -49,8 +50,8 @@ export default function About(){
                         All things in the world enjoy life under the health-preserving concept 
                     of "follow your heart and be at ease".
                     </p>
-                    <img src="/images/herbs.jpg" className="about-img"></img>
                 </div>
+                <img src="/images/herbs.jpg" className="about-img"></img>
             </div>
             
         </>
