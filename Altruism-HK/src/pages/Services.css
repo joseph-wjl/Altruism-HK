@@ -18,3 +18,59 @@
     text-align: left;
     margin-bottom: 1rem;
 }
+
+/* Card section */
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.card {
+    min-width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    border-radius: 30px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+}
+
+.scrollBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cards::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.scrollBtn.left {
+    left: -1rem; /* Adjust as needed */
+}
+
+.scrollBtn.right {
+    right: -1rem; /* Adjust as needed */
+}
