@@ -47,11 +47,11 @@
 .scrollBtn {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    background-color: #007bff;
+    transform: translateY(800%);
+    background-color: #000000;
     color: white;
     border: none;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
@@ -63,14 +63,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.cards::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
-}
-
 .scrollBtn.left {
     left: -1rem; /* Adjust as needed */
 }
 
 .scrollBtn.right {
     right: -1rem; /* Adjust as needed */
+}
+
+.cards::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
 }
