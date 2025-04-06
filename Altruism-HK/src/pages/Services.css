@@ -4,7 +4,7 @@
 
 .services-hero {
     background-image: url("/images/services-hero.jpg");
-    background-size: 100%; 
+    background-size: 100%;
     background-position: center;
     height: 35rem;
     width: 100%;
@@ -43,7 +43,8 @@
     overflow-x: auto;
     padding: 1rem;
     scroll-behavior: smooth;
-    scrollbar-width: none; /* For Firefox */
+    scrollbar-width: none;
+    /* For Firefox */
 }
 
 .card {
@@ -63,7 +64,8 @@
 }
 
 .cards::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
+    display: none;
+    /* For Chrome, Safari, and Edge */
 }
 
 /* Testing */
@@ -81,3 +83,38 @@
         display: none;
       }
   } */
+
+/* Details section */
+
+.services-details-img {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 0 20px 20px 0;
+}
+
+.services-details-text {
+    text-align: left;
+    width: 90%;
+    height: auto;
+    margin-right: 0;
+    float: right;
+    margin-left: 1rem;
+    border-left: 3px solid rgb(17, 17, 17);
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    font-weight: 300;
+}
+
+.services-details-text h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.services-details-text p {
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
