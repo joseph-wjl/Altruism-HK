@@ -8,7 +8,9 @@ export default function Team(){
             <div className="team-container">
                 <div className="team-header">
                     <h1>Our Team</h1>
-                    <p>Altruism's team is led by Dr. Huang Lingling, a Chinese medicine practitioner. Together with a professional, experienced and reputable team of registered Chinese medicine practitioners and therapists, it combines traditional Chinese medicine wisdom with modern advanced equipment to provide personalized and comprehensive treatment plans that take both internal and external factors into consideration. With a comfortable environment and private rooms, it's perfect for those who are busy with work and looking to pursue better health.</p>
+                    <p>Altruism's team is led by Dr. Huang Lingling, a Chinese medicine practitioner.</p>
+                    <p>Together with a professional, experienced and reputable team of registered Chinese medicine practitioners and therapists, it combines traditional Chinese medicine wisdom with modern advanced equipment to provide personalized and comprehensive treatment plans that take both internal and external factors into consideration.</p>
+                    <p>With a comfortable environment and private rooms, it's perfect for those who are busy with work and looking to pursue better health.</p>
                 </div>
                 <div className="team-members">
                     <div id="dr-huang-img"></div>

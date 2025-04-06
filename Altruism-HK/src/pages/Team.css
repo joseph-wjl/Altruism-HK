@@ -1,9 +1,11 @@
 .team-container {
     margin-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .team-header {
     margin: 2rem;
+    padding-bottom: 1rem;
 }
 
 .team-members {

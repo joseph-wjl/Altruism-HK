@@ -20,17 +20,14 @@ export default function Contact(){
                     <h1>Contact us</h1>
                     <p></p>
                     <form className="contact-form">
-                        <label for="name">First name</label>
+                        <div className="contact-form-name">
                             <input type="text" name="First name" placeholder="First name" required></input>
-                        <label for="name">Last name</label>
                             <input type="text" name="Last name" placeholder="Last name" required></input>
-                        <label for="email">Email</label>
-                            <input type="email" name="Email" placeholder="Email" required></input>
-                        <label for="phone">Phone</label>
-                            <input type="text" name="Phone" placeholder="Phone" required></input>
-                        <label for="message">Message</label>
-                            <textarea name="Message" placeholder="Leave a message" required></textarea>
-                        <submit type="submit" value="Submit" className="submit-btn">Submit</submit>
+                        </div>
+                            <input type="email" name="Email" placeholder="Your email" required></input>
+                            <input type="text" name="Phone" placeholder="Phone number" required></input>
+                            <textarea name="Message" placeholder="How can we help?" required></textarea>
+                            <submit type="submit" value="Submit" className="submit-btn">Submit</submit>
                     </form>
                 </div>
                 <img src="/images/contact-clinic.avif" className="contact-img"></img>
