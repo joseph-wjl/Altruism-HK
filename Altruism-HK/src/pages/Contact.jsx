@@ -5,7 +5,24 @@ import './Contact.css'
 export default function Contact(){
     return (
         <>
+            <div className="contact-hero">
+                    <h1>Contact Us</h1>
+                </div>
             <div className="contact-container">
+                <div className="contact-form-container">
+                    <form className="contact-form">
+                        <div className="contact-form-name">
+                            <input type="text" name="First name" placeholder="First name" required></input>
+                            <input type="text" name="Last name" placeholder="Last name" required></input>
+                        </div>
+                            <input type="email" name="Email" placeholder="Your email" required></input>
+                            <input type="text" name="Phone" placeholder="Phone number" required></input>
+                            <input type="text" name="Subject" placeholder="Subject" required></input>
+                            <textarea name="Message" placeholder="Please leave a message" required></textarea>
+                            <submit type="submit" value="Submit" className="submit-btn">Submit</submit>
+                    </form>
+                </div>
+                {/* <img src="/images/contact-clinic.avif" className="contact-img"></img> */}
                 <div className="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.824208761748!2d114.15264137480318!3d22.28464794346354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401c83fd3f82f%3A0x1154cb27546752f3!2sAltruism%20Healthcare!5e0!3m2!1sen!2shk!4v1743612410192!5m2!1sen!2shk" 
                         width="400" 
@@ -16,21 +33,6 @@ export default function Contact(){
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-                <div className="contact-form-container">
-                    <h1>Contact us</h1>
-                    <p></p>
-                    <form className="contact-form">
-                        <div className="contact-form-name">
-                            <input type="text" name="First name" placeholder="First name" required></input>
-                            <input type="text" name="Last name" placeholder="Last name" required></input>
-                        </div>
-                            <input type="email" name="Email" placeholder="Your email" required></input>
-                            <input type="text" name="Phone" placeholder="Phone number" required></input>
-                            <textarea name="Message" placeholder="How can we help?" required></textarea>
-                            <submit type="submit" value="Submit" className="submit-btn">Submit</submit>
-                    </form>
-                </div>
-                <img src="/images/contact-clinic.avif" className="contact-img"></img>
                 <div className="contact-details">
                     <div className="contact-details-containers">
                         <p><span className="bold">Email: </span> <a href="mailto:cs@altruism.hk">cs@altruism.hk</a></p>

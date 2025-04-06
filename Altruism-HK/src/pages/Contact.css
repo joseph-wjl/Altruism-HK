@@ -1,5 +1,27 @@
+/* Hero section */
+
+.contact-hero {
+    background-image: url("/images/contact-clinic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.contact-hero h1 {
+    font-size: 3em;
+}
+
+/*  */
+
 .contact-container {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-bottom: 5rem;
     width: 100%;
     box-sizing: border-box;
@@ -10,12 +32,13 @@ h1 {
     padding: 1rem;
 }
 
-.map {
-    padding: 2rem;
-}
-
 .contact-form input {
     width: 80%;
+}
+
+.contact-form-name {
+    width: 82%;
+    display: flex;
 }
 
 input, textarea {
@@ -58,10 +81,14 @@ textarea {
 }
 
 .contact-form-container {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* Details section */
+
+.map {
+    padding-top: 2rem;
+}
 
 .contact-img {
     width: 100%
@@ -70,7 +97,6 @@ textarea {
 .contact-details {
     text-align: left;
     padding-left: 2rem;
-    padding-top: 1rem;
     font-weight: 300;
     margin-bottom: -2rem;
 }

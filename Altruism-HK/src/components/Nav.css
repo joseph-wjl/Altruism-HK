@@ -11,7 +11,7 @@
 }
 
 .navbar-white {
-    background-color: white; 
+    background-color: #fcfcfc; 
     transition: background-color 0.3s ease-in-out; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     border-bottom: 1px solid black;
@@ -61,12 +61,12 @@
 .navbar-nav {
     gap: 1.5rem;
     font-size: 1.5em;
-    background-color: white;
+    background-color: #fcfcfc; 
     padding: 1rem;
 }
 
 .navbar-link{
-    color: black;
+    color: #161616;
     text-decoration: none;
     font-weight: 400;
 }
