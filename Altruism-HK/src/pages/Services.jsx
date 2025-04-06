@@ -2,33 +2,6 @@ import React from 'react'
 import './Services.css'
 
 export default function Services(){
-    
-    const [isAtStart, setIsAtStart] = React.useState(true);
-    const [isAtEnd, setIsAtEnd] = React.useState(false);
-
-    React.useEffect(() => {
-        const container = document.querySelector('.cards');
-        
-        const handleScroll = () => {
-            setIsAtStart(container.scrollLeft === 0);
-            setIsAtEnd(container.scrollLeft + container.offsetWidth >= container.scrollWidth);
-        }
-
-        container.addEventListener('scroll', handleScroll);
-
-        handleScroll();
-
-        return () => container.removeEventListener('scroll', handleScroll);
-    }, []);
-
-    function scrollLeft() {
-        const container = document.querySelector('.cards');
-        container.scrollBy({left: -330, behavior: 'smooth'});
-    }
-    function scrollRight() {
-        const container = document.querySelector('.cards');
-        container.scrollBy({ left: 330, behavior: 'smooth' });
-    }
 
     return (
         <>
@@ -42,9 +15,7 @@ export default function Services(){
                     <p>The clinic environment is comfortable and elegant. Each patient has an independent consulting room and treatment room with high privacy and confidentiality. It is especially suitable for you who are busy with work and pursue physical and mental health!</p>
                 </div>
                 <div className="cards-container">
-                    {!isAtStart && (
-                        <button onClick={scrollLeft} className="scrollBtn left">←</button>
-                    )}
+                    
                         <div className="cards">
                             <div className="card">
                                 <h2>Internal Medicine</h2>
@@ -79,19 +50,13 @@ export default function Services(){
                                 <p>Various muscle and bone injuries</p>
                             </div>
                         </div>
-                    {!isAtEnd && (
-                    <button onClick={scrollRight} className="scrollBtn right">→</button>
-                    )}
-                </div>
-                {/* Testing */}
-                <div class="scrolling-wrapper">
-                    <div class="card"><h2>Card</h2></div>
-                    <div class="card"><h2>Card</h2></div>
-                    <div class="card"><h2>Card</h2></div>
-                    <div class="card"><h2>Card</h2></div>
-                    <div class="card"><h2>Card</h2></div>
-                </div>
-                
+                        {/* <div class="scrolling-wrapper">
+                            <div class="card"><h2>Card</h2></div>
+                            <div class="card"><h2>Card</h2></div>
+                            <div class="card"><h2>Card</h2></div>
+                        </div> */}
+                    
+                </div> 
             </div>
         </>
     )
