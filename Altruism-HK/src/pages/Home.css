@@ -91,6 +91,16 @@
     margin-bottom: 3rem;
   }
 
+  .brief-card-img {
+    background-image: url(/images/home-img2.jpg);
+    background-size: 100%;
+    border-radius: 50% / 35%;
+    height: 40rem;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
   /* Wellness section */
 
   .wellness-section {

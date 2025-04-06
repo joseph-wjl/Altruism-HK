@@ -25,7 +25,8 @@ export default function Home() {
                     <h2>Mindset matters, more than you think.</h2>
                     <h3>Understanding the importance of mental health is key. That's why we start with a full evaluation to make sure we're touching on important factors in your relationship with food and wellness.</h3>
                 </div>
-                <img src="images/massage.jpg" className="brief-card-img"></img>
+                <img src="images/home-img2.jpg" className="brief-card-img"></img>
+                <div className="brief-card-img"></div>
             </div>
         </div>
         <div className="wellness-section">
