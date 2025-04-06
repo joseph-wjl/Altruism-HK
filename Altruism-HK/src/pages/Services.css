@@ -24,15 +24,15 @@
 
 .header p {
     font-weight: 300;
+    font-size: 1.1em;
     line-height: 1.3;
     text-align: left;
-    margin-bottom: 1rem;
+    margin: 2rem;
 }
 
 /* Card section */
 
 .cards-container {
-    border: 1px solid red;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -64,7 +64,7 @@
 .scrollBtn {
     position: absolute;
     top: 50%;
-    transform: translateY(800%);
+    transform: translateY(2000%);
     background-color: #000000;
     color: white;
     border: none;
