@@ -1,7 +1,7 @@
 .back-to-top-btn {
     width: 6rem;
     height: 2rem;
-    box-shadow: 5px 5px 5px 5px #0000001a;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color:  #ffffff;
     font-weight: 600;
     font-size: 0.9em;
