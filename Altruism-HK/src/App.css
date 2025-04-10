@@ -12,5 +12,6 @@ html, body {
   font-family: "inter", sans-serif;
   font-weight: lighter;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 

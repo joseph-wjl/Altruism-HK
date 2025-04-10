@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/Equipment.css'
+import './Equipment.css'
 // import Spline from '@splinetool/react-spline';
 
 export default function Equipment(){

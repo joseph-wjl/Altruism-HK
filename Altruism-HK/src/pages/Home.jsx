@@ -10,9 +10,12 @@ export default function Home() {
         <div className="hero">
             <h1>Discover the ways to unlock good health so you can be carefree and fly free.</h1>
             <h3>Get personalized support and guidance, ensuring that you have everything you need to nourish your body and transform your life.</h3>
-            <button id="learnmore-btn">Learn more</button>
+            <button id="learnmore-btn" 
+                onClick={() => document.getElementById('card-section').scrollIntoView({behavior: 'smooth'})}>
+                Learn more
+            </button>
         </div>
-        <div className="card-section">
+        <div className="card-section" id="card-section">
             <div className="brief-card">
                 <div className="brief-card-text">
                     <h2>Mindset matters, more than you think.</h2>

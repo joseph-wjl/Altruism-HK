@@ -8,6 +8,7 @@
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
     box-shadow: 0 2px 5px #0000001a;
+    box-sizing: border-box;
 }
 
 .navbar-white {
@@ -33,6 +34,7 @@
     border: none;
     width: 2rem;
     height: 2rem;
+    margin-right: 1rem;
 }
 .navbar-toggler:focus {
     box-shadow: none;
