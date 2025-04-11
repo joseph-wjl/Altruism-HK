@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './About.css'
+import seagullImg from '../assets/images/seagull.avif';
+import herbsImg from '../assets/images/herbs.jpg';
 
 export default function About(){
     return (
@@ -31,7 +32,7 @@ export default function About(){
                     seagulls, pursuing an ideal life of freedom!
                     </p>
                 </div>
-                <img src="/images/seagull.avif" className="about-img"></img>
+                <img src={seagullImg} className="about-img"></img>
                 <div className="about-text-container">
                     <p>
                         In Chinese, the word "Pride" has the meaning of being high and mighty, and is used to describe 
@@ -51,7 +52,7 @@ export default function About(){
                     of "follow your heart and be at ease".
                     </p>
                 </div>
-                <img src="/images/herbs.jpg" className="about-img"></img>
+                <img src={herbsImg} className="about-img"></img>
             </div>
             
         </>

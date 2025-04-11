@@ -8,7 +8,7 @@
 }
 
 .about-hero {
-    background-image: url("/images/wellness.jpg");
+    background-image: url('../assets/images/wellness.jpg');
     background-size: 150%; 
     background-position: center;
     height: 35rem;
