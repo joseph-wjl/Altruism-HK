@@ -1,7 +1,7 @@
 /* Hero section */
 
 .contact-hero {
-    background-image: url("/images/contact-clinic.jpg");
+    background-image: url('../assets/images/contact-clinic.jpg');
     background-size: cover;
     background-position: center;
     height: 20rem;

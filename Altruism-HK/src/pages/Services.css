@@ -14,7 +14,7 @@ html, body {
 }
 
 .services-hero {
-    background-image: url("/images/services-hero.jpg");
+    background-image: url('../assets/images/services-hero.jpg');
     background-size: 100%;
     background-position: center;
     height: 35rem;
@@ -81,22 +81,6 @@ html, body {
 .cards::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Edge */
 }
-
-/* Testing */
-
-/* .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-  
-    .card {
-      display: inline-block;
-    }
-    -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-        display: none;
-      }
-  } */
 
 /* Details section */
 

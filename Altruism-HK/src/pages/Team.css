@@ -29,7 +29,7 @@
 /* Avatars */
 
 #dr-huang-img {
-    background-image: url(/images/dr-huang.avif);
+    background-image: url(../assets/images/dr-huang.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -40,7 +40,7 @@
 }
 
 #dr-lai-img {
-    background-image: url(/images/dr-lai.avif);
+    background-image: url(../assets/images/dr-lai.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -51,7 +51,7 @@
 }
 
 #dr-huang2-img {
-    background-image: url(/images/dr-huang2.avif);
+    background-image: url(../assets/images/dr-huang2.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -62,7 +62,7 @@
 }
 
 #dr-cheung-img {
-    background-image: url(/images/dr-cheung.avif);
+    background-image: url(../assets/images/dr-cheung.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -73,7 +73,7 @@
 }
 
 #dr-lui-img {
-    background-image: url(/images/dr-lui.avif);
+    background-image: url(../assets/images/dr-lui.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -84,7 +84,7 @@
 }
 
 #therapist-wun-img {
-    background-image: url(/images/therapist-wun.avif);
+    background-image: url(../assets/images/therapist-wun.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
@@ -95,7 +95,7 @@
 }
 
 #therapist-ng-img {
-    background-image: url(/images/therapist-ng.avif);
+    background-image: url(../assets/images/therapist-ng.avif);
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
