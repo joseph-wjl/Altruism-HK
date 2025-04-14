@@ -96,6 +96,13 @@
     }
     .navbar-nav {
         background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        list-style: none;
+        gap: 2.5rem;
+        margin-top: -4.5rem;
     }
     .navbar .navbar-link {
         color: #ffffff;
@@ -109,7 +116,10 @@
         font-size: 0.7em;
         font-weight: 400;
     }
-    .hero {
-        background-size: 100%;
+    .navbar-brand {
+        display: flex;
+        margin-right: 90%;
+        font-size: 1.5rem;
+        text-decoration: none;
     }
-}
+}  

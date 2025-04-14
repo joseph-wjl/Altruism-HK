@@ -136,9 +136,11 @@
       padding-left: 5rem;
       height: 100vh;
       gap: 1.5rem;
+      background-size: 100%;
     }
     .hero>h1 {
       font-size: 3em;
+      font-weight: 600;
       width: 50rem;
       margin-bottom: -0.5rem;
     }
