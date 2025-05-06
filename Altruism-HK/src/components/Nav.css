@@ -92,7 +92,7 @@
 @media(min-width: 900px) {
     .navbar {
         height: 4rem;
-        gap: 52rem;
+        
     }
     .navbar-nav {
         background-color: transparent;
@@ -102,7 +102,7 @@
         justify-content: end;
         list-style: none;
         gap: 2.5rem; 
-        
+        max-width: 20%;
     }
     .navbar .navbar-link {
         color: #ffffff;
