@@ -102,11 +102,13 @@
         justify-content: end;
         list-style: none;
         gap: 2.5rem; 
+        
     }
     .navbar .navbar-link {
         color: #ffffff;
         font-size: 0.7em;
         font-weight: 400;
+        
     }
     .navbar .navbar-link:hover {
         color: #dbdbdb;
