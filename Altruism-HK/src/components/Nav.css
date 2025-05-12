@@ -102,7 +102,7 @@
         justify-content: end;
         list-style: none;
         gap: 2.5rem; 
-        max-width: 20%; 
+        max-width: 20%;
     }
     .navbar .navbar-link {
         color: #ffffff;
