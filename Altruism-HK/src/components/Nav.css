@@ -97,7 +97,7 @@
     .navbar-nav {
         background-color: transparent;
         display: flex;
-        flex-direction: row;
+        flex-direction: row; 
         align-items: center;
         justify-content: end;
         list-style: none;
